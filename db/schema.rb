@@ -15,4 +15,3 @@ ActiveRecord::Schema.define(version: 0) do
 
 end
 
-rails g migration create_artists published_status:string --no-test-framework
