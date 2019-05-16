@@ -7,3 +7,5 @@ class CreateGenres < ActiveRecord::Migration[4.2]
     end
   end
 end
+
+rails g migration create_songs name:string --no-test-framework
