@@ -9,3 +9,4 @@ class CreateArtists < ActiveRecord::Migration[4.2]
   end
 end
 
+rails g migration create_genres name:string bio:text --no-test-framework
