@@ -8,4 +8,3 @@ class CreateGenres < ActiveRecord::Migration[4.2]
   end
 end
 
-rails g migration create_songs name:string artist_id:integer genre_id:integer --no-test-framework
