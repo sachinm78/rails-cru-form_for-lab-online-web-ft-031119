@@ -15,4 +15,4 @@ ActiveRecord::Schema.define(version: 0) do
 
 end
 
-rails g migration add_published_status_to_posts published_status:string --no-test-framework
+rails g migration create_artists published_status:string --no-test-framework
